@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ScrumAppApp: App {
+struct ScrumApp: App {
     var body: some Scene {
         WindowGroup {
             MeetingView()

@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14A8336625E9E71B00F6E2F5 /* ScrumAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8336525E9E71B00F6E2F5 /* ScrumAppApp.swift */; };
+		14A8336625E9E71B00F6E2F5 /* ScrumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8336525E9E71B00F6E2F5 /* ScrumApp.swift */; };
 		14A8336825E9E71B00F6E2F5 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8336725E9E71B00F6E2F5 /* MeetingView.swift */; };
 		14A8336A25E9E71C00F6E2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A8336925E9E71C00F6E2F5 /* Assets.xcassets */; };
 		14A8336D25E9E71C00F6E2F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A8336C25E9E71C00F6E2F5 /* Preview Assets.xcassets */; };
+		14A8337925E9F2C100F6E2F5 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8337825E9F2C100F6E2F5 /* DailyScrum.swift */; };
+		14A8337F25E9F4DF00F6E2F5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8337E25E9F4DF00F6E2F5 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14A8336225E9E71B00F6E2F5 /* ScrumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14A8336525E9E71B00F6E2F5 /* ScrumAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumAppApp.swift; sourceTree = "<group>"; };
+		14A8336525E9E71B00F6E2F5 /* ScrumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumApp.swift; sourceTree = "<group>"; };
 		14A8336725E9E71B00F6E2F5 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		14A8336925E9E71C00F6E2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A8336C25E9E71C00F6E2F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14A8336E25E9E71C00F6E2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A8337825E9F2C100F6E2F5 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		14A8337E25E9F4DF00F6E2F5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		14A8336425E9E71B00F6E2F5 /* ScrumApp */ = {
 			isa = PBXGroup;
 			children = (
-				14A8336525E9E71B00F6E2F5 /* ScrumAppApp.swift */,
-				14A8336725E9E71B00F6E2F5 /* MeetingView.swift */,
+				14A8336525E9E71B00F6E2F5 /* ScrumApp.swift */,
+				14A8337625E9F2A400F6E2F5 /* Models */,
+				14A8337D25E9F4CF00F6E2F5 /* Views */,
 				14A8336925E9E71C00F6E2F5 /* Assets.xcassets */,
 				14A8336E25E9E71C00F6E2F5 /* Info.plist */,
 				14A8336B25E9E71C00F6E2F5 /* Preview Content */,
@@ -67,6 +72,23 @@
 				14A8336C25E9E71C00F6E2F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14A8337625E9F2A400F6E2F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14A8337825E9F2C100F6E2F5 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14A8337D25E9F4CF00F6E2F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14A8336725E9E71B00F6E2F5 /* MeetingView.swift */,
+				14A8337E25E9F4DF00F6E2F5 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A8336825E9E71B00F6E2F5 /* MeetingView.swift in Sources */,
-				14A8336625E9E71B00F6E2F5 /* ScrumAppApp.swift in Sources */,
+				14A8337925E9F2C100F6E2F5 /* DailyScrum.swift in Sources */,
+				14A8337F25E9F4DF00F6E2F5 /* CardView.swift in Sources */,
+				14A8336625E9E71B00F6E2F5 /* ScrumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
