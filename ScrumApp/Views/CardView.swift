@@ -30,6 +30,7 @@ struct CardView: View {
             .font(.caption)
         }
         .padding()
+        .foregroundColor(.white)
     }
 }
 
