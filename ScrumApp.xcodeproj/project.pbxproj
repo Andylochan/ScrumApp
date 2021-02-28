@@ -14,6 +14,7 @@
 		14A8337925E9F2C100F6E2F5 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8337825E9F2C100F6E2F5 /* DailyScrum.swift */; };
 		14A8337F25E9F4DF00F6E2F5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8337E25E9F4DF00F6E2F5 /* CardView.swift */; };
 		14A8338225EA0B1E00F6E2F5 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8338125EA0B1E00F6E2F5 /* ScrumsView.swift */; };
+		14F3C53E25EB5E6A00758BE6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3C53D25EB5E6A00758BE6 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		14A8337825E9F2C100F6E2F5 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		14A8337E25E9F4DF00F6E2F5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		14A8338125EA0B1E00F6E2F5 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		14F3C53D25EB5E6A00758BE6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				14A8336525E9E71B00F6E2F5 /* ScrumApp.swift */,
-				14A8337625E9F2A400F6E2F5 /* Models */,
 				14A8337D25E9F4CF00F6E2F5 /* Views */,
+				14A8337625E9F2A400F6E2F5 /* Models */,
 				14A8336925E9E71C00F6E2F5 /* Assets.xcassets */,
 				14A8336E25E9E71C00F6E2F5 /* Info.plist */,
 				14A8336B25E9E71C00F6E2F5 /* Preview Content */,
@@ -87,9 +89,10 @@
 		14A8337D25E9F4CF00F6E2F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				14A8336725E9E71B00F6E2F5 /* MeetingView.swift */,
-				14A8337E25E9F4DF00F6E2F5 /* CardView.swift */,
 				14A8338125EA0B1E00F6E2F5 /* ScrumsView.swift */,
+				14A8337E25E9F4DF00F6E2F5 /* CardView.swift */,
+				14A8336725E9E71B00F6E2F5 /* MeetingView.swift */,
+				14F3C53D25EB5E6A00758BE6 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A8336825E9E71B00F6E2F5 /* MeetingView.swift in Sources */,
+				14F3C53E25EB5E6A00758BE6 /* DetailView.swift in Sources */,
 				14A8337925E9F2C100F6E2F5 /* DailyScrum.swift in Sources */,
 				14A8337F25E9F4DF00F6E2F5 /* CardView.swift in Sources */,
 				14A8338225EA0B1E00F6E2F5 /* ScrumsView.swift in Sources */,
