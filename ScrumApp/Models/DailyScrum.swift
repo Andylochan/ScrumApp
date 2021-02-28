@@ -33,3 +33,18 @@ extension DailyScrum {
         ]
     }
 }
+
+//MARK: - Editable Data
+extension DailyScrum {
+    struct Data {
+        var title: String = ""
+        var attendees: [String] = []
+        var lengthInMinutes: Double = 5.0
+        var color: Color = .black
+    }
+    
+    //Update editable data struct with the existing data 
+    var data: Data {
+        return Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), color: color)
+    }
+}

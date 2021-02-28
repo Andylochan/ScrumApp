@@ -15,6 +15,7 @@
 		14A8337F25E9F4DF00F6E2F5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8337E25E9F4DF00F6E2F5 /* CardView.swift */; };
 		14A8338225EA0B1E00F6E2F5 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8338125EA0B1E00F6E2F5 /* ScrumsView.swift */; };
 		14F3C53E25EB5E6A00758BE6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3C53D25EB5E6A00758BE6 /* DetailView.swift */; };
+		14F3C54225EB663200758BE6 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3C54125EB663200758BE6 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		14A8337E25E9F4DF00F6E2F5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		14A8338125EA0B1E00F6E2F5 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		14F3C53D25EB5E6A00758BE6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		14F3C54125EB663200758BE6 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				14A8337E25E9F4DF00F6E2F5 /* CardView.swift */,
 				14A8336725E9E71B00F6E2F5 /* MeetingView.swift */,
 				14F3C53D25EB5E6A00758BE6 /* DetailView.swift */,
+				14F3C54125EB663200758BE6 /* EditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				14F3C53E25EB5E6A00758BE6 /* DetailView.swift in Sources */,
 				14A8337925E9F2C100F6E2F5 /* DailyScrum.swift in Sources */,
 				14A8337F25E9F4DF00F6E2F5 /* CardView.swift in Sources */,
+				14F3C54225EB663200758BE6 /* EditView.swift in Sources */,
 				14A8338225EA0B1E00F6E2F5 /* ScrumsView.swift in Sources */,
 				14A8336625E9E71B00F6E2F5 /* ScrumApp.swift in Sources */,
 			);
