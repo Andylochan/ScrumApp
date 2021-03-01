@@ -27,7 +27,7 @@ struct DailyScrum: Identifiable {
 extension DailyScrum {
     static var data: [DailyScrum] {
         [
-            DailyScrum(title: "Design", attendees: ["Cathy", "Daisy", "Simon", "John"], lengthInMinutes: 10, color: .blue),
+            DailyScrum(title: "Design", attendees: ["Cathy", "Daisy", "Simon", "John"], lengthInMinutes: 10, color: .yellow),
             DailyScrum(title: "App Dev", attendees: ["Katie", "Jay", "Eunha", "Luis"], lengthInMinutes: 5, color: .orange),
             DailyScrum(title: "Web Dev", attendees: ["Chris", "Joe", "Eden", "Nicole", "Sarah", "Alice", "Chad"], lengthInMinutes: 1, color: .purple)
         ]
@@ -40,7 +40,7 @@ extension DailyScrum {
         var title: String = ""
         var attendees: [String] = []
         var lengthInMinutes: Double = 5.0
-        var color: Color = .black
+        var color: Color = .random
     }
     
     //Update editable data struct with the existing data 

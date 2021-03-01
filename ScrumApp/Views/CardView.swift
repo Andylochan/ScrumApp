@@ -30,7 +30,7 @@ struct CardView: View {
             .font(.caption)
         }
         .padding()
-        .foregroundColor(.white)
+        .foregroundColor(scrum.color.accessibleFontColor)
     }
 }
 
