@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct ScrumApp: App {
-    @State private var scrums = DailyScrum.data
+    @State private var scrums = DailyScrum.data //Source for truth for @Bindings 
     
     var body: some Scene {
         WindowGroup {

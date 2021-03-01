@@ -8,22 +8,24 @@
 import SwiftUI
 
 struct DailyScrum: Identifiable {
-    var id: UUID
+    let id: UUID
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int
     var color: Color
-    
-    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, color: Color) {
+    var history: [History]
+
+    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, color: Color, history: [History] = []) {
         self.id = id
         self.title = title
         self.attendees = attendees
         self.lengthInMinutes = lengthInMinutes
-        self.color = color 
+        self.color = color
+        self.history = history
     }
 }
 
-//MARK: - Test Data
+//MARK: - Test Data - Default set for ScrumApp.swift @State scrums
 extension DailyScrum {
     static var data: [DailyScrum] {
         [
